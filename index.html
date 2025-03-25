@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        *{
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+        .bloco{
+            text-align: center;
+            background-color: salmon;
+            color:black;
+            font-weight: bold;
+            width: 11rem;
+            height: 5rem;
+            margin: 1rem;
+            border: 1px solid #a3a0a0;
+            box-shadow: 0.5rem .5rem .3rem .01rem #a3a0a0;
+            padding: 3rem;
+        }
+        .container{
+            display: flex;
+            width: 40rem;
+            min-height: 25rem;
+            margin: 2rem auto;
+            border: 1px solid #a3a0a0;
+            box-shadow: 0.5rem .5rem .3rem .01rem #a3a0a0;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <script>
+            let raio = parseInt(prompt("Informe o raio"));
+            const pi = Math.PI;
+            area = pi * parseInt(raio) * parseInt(raio);
+            comprimento = 2 * pi * parseInt(raio);
+            volume = 3/4 * pi * parseInt(raio) * parseInt(raio) * parseInt(raio);
+    
+            document.write(`<div class="bloco">Área: ${area}</div>`);
+            document.write(`<div class="bloco">Comprimento: ${comprimento}</div>`);
+            document.write(`<div class="bloco">Volume: ${volume}</div>`);
+    
+        </script>
+        </div>
+</body>
+</html>
