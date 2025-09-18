@@ -4,7 +4,7 @@ Este projeto foi desenvolvido como parte da **Oficina de Introdução à Program
 
 ---
 
-## 📘 Sobre a Oficina
+## 📘 Sobre
 
 📌 **Nome:** Calculadora Web  
 🏫 **Tipo:** Projeto  
